@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-Console.Write("Ведите пятизначное число: ");
+Console.Write("Введите пятизначное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 if( n < 10000 || n > 100000)
